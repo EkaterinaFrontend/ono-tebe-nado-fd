@@ -36,12 +36,13 @@
 .address {
   font-style: normal;
   font-size: 18px;
-  line-height: 24.3px;
+  line-height: 1.35;
   max-width: 240px;
 }
 
 .address a {
   border-bottom: 1px solid black;
+  text-decoration: none;
 }
 
 .header__address {
@@ -64,10 +65,7 @@
 .overlay {
   background-color: rgb(0 0 0 /0.6);
   position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
+  inset: 0;
 }
 
 .cover__title {
@@ -144,6 +142,7 @@
 
 .lots__card-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 25px;
   margin-bottom: 31px;
 }
@@ -257,7 +256,7 @@
   line-height: 24px;
 }
 
-.about__text-second {
+.about__text-modified {
   padding-top: 24px;
 }
 
