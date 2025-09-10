@@ -254,10 +254,7 @@
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
-}
-
-.about__text-modified {
-  padding-top: 24px;
+  gap: 24px;
 }
 
 .footer {
